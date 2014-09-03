@@ -25,9 +25,9 @@
     </licenses>
 
     <scm>
-        <url>http://github.com/rtfpessoa/diff2html-webjar</url>
-        <connection>scm:git:https://github.com/rtfpessoa/diff2html-webjar.git</connection>
-        <developerConnection>scm:git:https://github.com/rtfpessoa/diff2html-webjar.git</developerConnection>
+        <url>http://github.com/webjars/diff2html</url>
+        <connection>scm:git:https://github.com/webjars/diff2html.git</connection>
+        <developerConnection>scm:git:https://github.com/webjars/diff2html.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
@@ -44,7 +44,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <diff2html.version>0.0.1</diff2html.version>
         <diff2html.url>https://github.com/rtfpessoa/diff2html/archive</diff2html.url>
-        <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/diff2html/${diff2html.version}</destDir>
+        <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/diff2html/${project.version}</destDir>
     </properties>
 
     <build>
