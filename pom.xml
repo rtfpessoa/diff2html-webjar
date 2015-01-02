@@ -50,8 +50,8 @@
                 "paths": {
                     "diff2html": "diff2html",
                     "diff2html-min": "diff2html.min",
-                    "diff2html-css": "diff2html.css",
-                    "diff2html-min-css": "diff2html.min.css"
+                    "diff2html-css": "diff2html",
+                    "diff2html-min-css": "diff2html.min"
                 }
             }
         </requirejs>
