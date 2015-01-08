@@ -52,6 +52,14 @@
                     "diff2html-min": "diff2html.min",
                     "diff2html-css": "diff2html",
                     "diff2html-min-css": "diff2html.min"
+                },
+                "shim": {
+                    "diff2html": {
+                        "exports": "Diff2Html"
+                    },
+                    "diff2html-min": {
+                        "exports": "Diff2Html"
+                    }
                 }
             }
         </requirejs>
