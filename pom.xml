@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>diff2html</artifactId>
-    <version>0.0.4-4-SNAPSHOT</version>
+    <version>0.2.1-SNAPSHOT</version>
     <name>diff2html</name>
     <description>WebJar for Diff2Html</description>
     <url>https://github.com/rtfpessoa/diff2html</url>
@@ -42,7 +42,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <diff2html.version>0.0.4</diff2html.version>
+        <diff2html.version>0.2.1</diff2html.version>
         <diff2html.url>https://github.com/rtfpessoa/diff2html/archive</diff2html.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/diff2html/${project.version}</destDir>
         <requirejs>
@@ -96,7 +96,7 @@
                                 <unzip src="${project.build.directory}/diff2html.zip" dest="${project.build.directory}/diff2html" />
                                 <echo message="moving resources" />
                                 <move todir="${destDir}" overwrite="true" verbose="true">
-                                    <fileset dir="${project.build.directory}/diff2html/diff2html-${diff2html.version}" />
+                                    <fileset dir="${project.build.directory}/diff2html/diff2html-${diff2html.version}/dist" />
                                 </move>
                             </target>
                         </configuration>
