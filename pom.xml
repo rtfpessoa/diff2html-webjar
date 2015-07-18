@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>diff2html</artifactId>
-    <version>0.2.5</version>
+    <version>0.2.6-SNAPSHOT</version>
     <name>diff2html</name>
     <description>WebJar for Diff2Html</description>
     <url>https://github.com/rtfpessoa/diff2html</url>
@@ -28,7 +28,7 @@
         <url>http://github.com/webjars/diff2html</url>
         <connection>scm:git:https://github.com/webjars/diff2html.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/diff2html.git</developerConnection>
-        <tag>diff2html-0.2.5</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <developers>
