@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>diff2html</artifactId>
-    <version>1.0.0-2-SNAPSHOT</version>
+    <version>1.1.0-SNAPSHOT</version>
     <name>diff2html</name>
     <description>WebJar for Diff2Html</description>
     <url>https://github.com/rtfpessoa/diff2html</url>
@@ -42,7 +42,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <diff2html.version>1.0.0-1</diff2html.version>
+        <diff2html.version>1.1.0</diff2html.version>
         <diff2html.url>https://github.com/rtfpessoa/diff2html/archive</diff2html.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/diff2html/${project.version}</destDir>
         <requirejs>
@@ -77,7 +77,7 @@
                         <goals><goal>download-single</goal></goals>
                         <configuration>
                             <url>${diff2html.url}</url>
-                            <fromFile>v${diff2html.version}.zip</fromFile>
+                            <fromFile>${diff2html.version}.zip</fromFile>
                             <toFile>${project.build.directory}/diff2html.zip</toFile>
                         </configuration>
                     </execution>
@@ -106,13 +106,13 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
-                <version>2.5.1</version>
+                <version>2.5.2</version>
             </plugin>
 
             <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
-                <version>1.6.5</version>
+                <version>1.6.6</version>
                 <extensions>true</extensions>
                 <configuration>
                     <serverId>sonatype-nexus-staging</serverId>
